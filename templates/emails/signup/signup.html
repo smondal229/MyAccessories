@@ -1,0 +1,9 @@
+{% extends 'emails/base.html' %}
+
+{% block heading %}
+  Dear {{ name }}
+{% endblock %}
+
+{% block content %}
+  <span>To verify your acount click <a href="{% url 'users:verify' token %}">here</a></span>
+{% endblock %}

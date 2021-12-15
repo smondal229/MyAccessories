@@ -1,0 +1,7 @@
+{% block heading %}
+  Dear {{ email }}
+{% endblock %}
+
+{% block content %}
+  Your account is verified
+{% endblock %}
